@@ -6,7 +6,7 @@
 
 /*header*/
 header{
-    background-color: rgb(255, 193, 188);
+    background-color: rgb(3, 89, 195);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +42,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+
+#titulo{
+    margin-top: 20px;
 }
 
 .card{
@@ -74,7 +79,7 @@ main{
     border-radius: 5px;
 }
 .card-info button:hover{
-    background-color: rgb(255, 193, 188);
+    background-color: rgb(96, 125, 250);
     color: rgb(0, 0, 0);
 }
 .card-info ul{
